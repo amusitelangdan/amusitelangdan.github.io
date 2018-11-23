@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  纯洁的微笑
+title:  Yoda
 subtitle: 分享技术，品味人生
 name: 纯洁的微笑 
 email: ityouknow@126.com
@@ -15,11 +15,9 @@ keywords: ityouknow,纯洁的微笑,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,
 encoding: "utf-8"
 favicon: favicon.png 
 
-repository: ityouknow/ityouknow.github.io
-github_url: https://github.com/ityouknow
-cnblog_url: http://www.cnblogs.com/ityouknow
-url: http://www.ityouknow.com
-enforce_ssl: ityouknow.com
+repository: yoda527/yoda527.github.io
+github_url: https://github.com/yoda527
+url: https://yoda527.github.io/
 
 ## Gem
 plugins:
