@@ -19,7 +19,7 @@ keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-                        <a class="posts-list-name bubble-float-left" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                        <a class="posts-list-name bubble-float-left" href="{{ post.url }}">{{ post.title }}</a>
                         <span class='circle'></span>
                     </div>
                 </li>
