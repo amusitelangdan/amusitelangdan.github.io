@@ -13,7 +13,7 @@ email: 13023195022@163.com
 description: 本站是心安的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构等相关的研究与知识分享。
 keywords: 心安,XinAnzzZ,Spring,Spring Boot,Spring Cloud,Docker,生活故事编程,代码,开源,Developer,Programmer,Coder,IT技术博客,Java
 encoding: "utf-8"
-favicon: favicon.ico
+favicon: favicon.png
 
 repository: yoda527/yoda527.github.io
 github_url: https://github.com/yoda527
