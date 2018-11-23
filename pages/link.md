@@ -10,7 +10,7 @@ permalink: /link
 
 ## 友情链接
 
-- [喜欢较真的平头哥](http://javahdw.top/) - SpringBoot SpringCloud Jenkins Docker DevOps Linux！
+- [喜欢较真儿的平头哥](http://javahdw.top/) - SpringBoot SpringCloud Jenkins Docker DevOps Linux！
 
 ## 个人链接
 
