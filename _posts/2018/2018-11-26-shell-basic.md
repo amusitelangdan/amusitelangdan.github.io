@@ -9,7 +9,7 @@ excerpt: 本文主要为大家讲解Shell基础。
 
 # Shell基础
 
-### Shell 概述
+### 一、Shell 概述
 
 * Shell是什么？
 
@@ -21,12 +21,12 @@ excerpt: 本文主要为大家讲解Shell基础。
 同样的，计算机所输出的信息也是二进制数据，Shell也会将这些二进制数据转换为方便我们理解的编程语言。
 所以说，Shell的角色之一就是充当了计算机和人类之间的“翻译官”。从某种角度来讲，我们也可以将windows的操作界面称之为Shell。
 
-### Hello World
+### 二、Shell初体验-Hello World
 
 编写我们第一个Shell脚本，在控制台（博主使用的是XShell工具），输入`vim hello.sh`，新建一个脚本文件并且进入编辑模式。
 输入以下内容然后保存。
 
-```sh
+``` sh
 #!/bin/bash
 # this is my first shell program.
 echo "Hello World !"
@@ -36,7 +36,7 @@ echo "Hello World !"
 下面解释一下我们的这些代码。首先`#!/bin/bash`，它标识了下面的内容是标准的Shell脚本。第二行是注释，Shell的注释方式是前面加“**#**”。
 第三行`echo`，是将指定内容进行输出的命令。可以理解为`System.out.print();`。这个脚本就是简单的进行打印输出。
 
-### Bash 的基本功能
+### 三、Bash 的基本功能
 
 1. 命令别名与快捷键
 
