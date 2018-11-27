@@ -6,7 +6,7 @@ tags: [linux]
 excerpt: 本文主要为大家讲解Shell基础。
 ---
 
-# Shell基础
+# Shell 基础
 
 ### 一、Shell 概述
 
