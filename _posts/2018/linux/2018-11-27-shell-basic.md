@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      Shell 基础
-category: linux
 tags: [linux]
 excerpt: 本文主要为大家讲解Shell基础。
 ---
