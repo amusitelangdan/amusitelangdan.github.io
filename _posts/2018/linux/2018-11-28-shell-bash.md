@@ -79,7 +79,7 @@ excerpt: 本文主要讲解关于Bash变量的一些问题。包括Bash变量的
         那么我们想要执行这些脚本文件，就需要进入到这个文件的目录下，或者使用路径前缀来执行脚本。
         例如，我们想要执行`ls`命令，理论上讲，我们需要`cd /bin`，然后执行`ls`，或者`/bin/ls`。但是我们在实际的使用过程中，是从来不会带上`/bin`前缀的，这其实就是`PATH`环境变量的作用。
         我们先查看一下`PATH`变量的值。
-        ``` sh
+        ```sh
         echo $PATH
         /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
         ```
