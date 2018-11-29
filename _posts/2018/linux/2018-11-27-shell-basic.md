@@ -25,7 +25,7 @@ excerpt: 本文主要为大家讲解Shell基础。
 编写我们第一个Shell脚本，在控制台（博主使用的是XShell工具），输入`vim hello.sh`，新建一个脚本文件并且进入编辑模式。
 输入以下内容然后保存。
 
-``` text
+``` sh
 #!/bin/bash
 # this is my first shell program.
 echo "Hello World !"
