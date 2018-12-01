@@ -13,19 +13,19 @@ function clickWord() {
                 y = e.pageY;
             $i.css({
                 "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-                "top": y - 50,
+                "top": y - 20,
                 "left": x,
                 "position": "absolute",
                 "font-weight": "bold",
-                "font-size": "50px",
-                "color": "#ff6651"
+                "font-size": "15px",
+                "color": "#ff5e76"
             });
             $("body").append($i);
             $i.animate({
-                    "top": y - 180,
+                    "top": y - 400,
                     "opacity": 0
                 },
-                1500,
+                2000,
                 function () {
                     $i.remove();
                 });
