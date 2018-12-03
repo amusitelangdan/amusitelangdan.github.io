@@ -163,6 +163,50 @@ for y in "$@"
 但是后者是一次将每一个参数进行循环打印，打印了5次，这就是两者的区别。
 这里暂时不需要去纠结for循环的语法，和其他语言没什么实质上的区别，就是换了个书写形式而已，后面的博文也会专门讲解一下一些语法问题。
 
+* 接收键盘输入---read
+
+通过上面三个示例我们发现，上面的传递参数的方式对于使用者来说是很不友好的，如果使用者不知道脚本的内容，就不知道如何传递这些参数。
+这时候我们就需要一个特殊的命令来引导用户输入参数以及接收用户输入的参数。
+语法，`read [选项] [变量名]`
+
+| 选项 | 作用 |
+|----|:---|
+| -p | “提示信息”：在等待用户输入时，输出提示信息。 |
+| -t | read命令会一直等待用户输入，所以此选项用来限定用户输入的等待时间。 |
+| -n | read命令只接受指定字符数，就会执行。 |
+| -s | 隐藏输入的数据，用于机密信息的输入。 |
+话不多说，写个脚本，demo4.sh
+``` sh
+#!/bin/bash
+
+read -p "please enter your username : " -t 30 username
+
+echo "your username is $username"
+
+read -p "please enter your password : " -s password
+
+echo -e "\n"
+echo "your password is $password"
+
+read -p "please enter your sex [M/F] : " -n 1 sex
+
+echo -e "\n"
+echo "your sex is $sex"
+```
+运行结果如下：
+``` sh
+please enter your username : test
+your username is test
+please enter your password :
+
+your password is test
+please enter your sex [M/F] : M
+
+your sex is M
+```
+可以看到执行之后，控制台提示`please enter your username`，这是`-p`参数的作用，而`-t`参数的作用是限制“30s”时间输入，否则脚本自动执行下一步。
+然后输入密码的时候，自动隐藏了密码，这是`-s`的作用。之后`please enter your sex [M/F] : `只要输入一个字符就会自动执行下一步，这是`-n`的作用。
+
 ### 五、预定义变量
 
 | 变量 | 作用 |
@@ -171,5 +215,5 @@ for y in "$@"
 | $$ | 当前进程的进程号，即PID。 |
 | $! | 后台运行的最后一个进程的进程号。 |
 
-
-
+以上就是Shell脚本中变量相关的内容。不管您有任何的意见和建议都欢迎您[联系我](http://www.yuhangma.com/about.html)进行及时的沟通。
+谢谢你百忙之中阅读本文，如果喜欢我的文章你也可以扫描下方二维码支持一下博主。博主只接受免费赞助，不接受包养！！！绝不！！！！！！除非你是美女，手动滑稽。
