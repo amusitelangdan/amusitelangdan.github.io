@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Shell 基础
+title: Shell编程系列（一）-- Shell 基础
 category: linux
 tags: [linux]
 excerpt: 本文主要为大家讲解Shell基础。
 ---
 
-## Shell编程系列（二）-- Shell 基础
+## Shell编程系列（一）-- Shell 基础
 
 ### 一、Shell 概述
 
