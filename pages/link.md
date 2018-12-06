@@ -10,7 +10,7 @@ permalink: /link
 
 ## 友情链接
 
-- [纯洁的微笑](http://http://www.ityouknow.com/) - 分享技术，品味人生！
+- [纯洁的微笑](http://www.ityouknow.com/) - 分享技术，品味人生！
 - [喜欢较真儿的平头哥](http://javahdw.top/) - SpringBoot SpringCloud Jenkins Docker DevOps Linux！
 
 ## 个人链接
