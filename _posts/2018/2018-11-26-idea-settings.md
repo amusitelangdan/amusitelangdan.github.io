@@ -28,7 +28,7 @@ Tips，这里的设置只是针对你的IDE，而不是编辑器，简单来讲�
 ### 开启鼠标滚轮控制字体大小设置
 
 打开`Settings`，依次点击`Editor - General`，在右侧的`Mouse`选项下方，勾选`Change font size(Zoom) with Ctrl+Mouse Wheel`。
-也可以在主界面直接快捷键`ctrl + shift + A`搜索`change font size`，然后enter键确认开启。
+也可以在主界面直接快捷键`ctrl + shift + A`搜索`change font size`，找到对应的选项，然后enter键确认开启。
 ![](http://www.yuhangma.com/assets/images/2018/idea/idea-settings-02.png)
 
 ### 大小写设置
