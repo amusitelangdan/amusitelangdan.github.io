@@ -17,12 +17,13 @@ IDEA的强大的功能离不开IDEA提供的多样化的自定义设置，下面
 
 首先我们打开设置，点击上方菜单栏的`File`然后选择`Settings`（win系统快捷键是`ctrl + alt + s`）。
 然后依次打开`Appearance & Behavior - Appearance`，在右侧的`UI Options`下方，是对于IDE整体的UI相关的设置。
-1. 我们可以在`Theme`右侧的下拉框中选择我们喜欢的UI，然后点击右下角的Apply进行应用。
+1. 我们可以在`Theme`右侧的下拉框中选择我们喜欢的UI，然后点击右下角的`Apply`按钮进行应用。
 更多主题可以进入[http://www.riaway.com/](http://www.riaway.com/)下载安装，也可以安装**Material Theme UI**插件进行更多主题的切换。
 2. 我们可以勾选Override default fonts by(not recommended)选项来覆盖编辑器默认的字体，然后在下方来设置你所喜欢的字体和大小。
-这里推荐使用18号的“Microsoft YaHei UI”，还是蛮漂亮的。注意，这里的设置只是针对你的IDE，而不是编辑器，简单来讲就是修改这里的设置之后你的菜单栏的字体会变化，但是你的编辑器，也就是你的代码字体是不会变化的。
+这里推荐使用“Microsoft YaHei UI”或者“Fira Code Retina”字体，真的很漂亮。
+Tips，这里的设置只是针对你的IDE，而不是编辑器，简单来讲就是修改这里的设置之后你的菜单栏的字体会变化，但是你的编辑器，也就是你的代码字体是不会变化的。
 3. 上面我们修改了IDE的字体设置，下面我们来设置一下我们编辑器的字体，也就是我们代码的字体。仍然是进入设置，然后依次选择`Editor - font`。
-推荐设置的字体是“Consolas”，真的很好看。当然具体还是看个人喜好。
+博主墙裂推荐的字体是“Consolas”或者“Fira Code”，真的很好看。当然具体还是看个人喜好。
 
 ### 开启鼠标滚轮控制字体大小设置
 
